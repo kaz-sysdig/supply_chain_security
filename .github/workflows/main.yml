@@ -1,6 +1,7 @@
 name: Generate SBOM Report with Syft
 
 on:
+  workload_dispatch:
   push:
     branches:
       - master
